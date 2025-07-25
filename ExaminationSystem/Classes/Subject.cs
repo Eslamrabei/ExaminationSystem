@@ -46,14 +46,14 @@ namespace ExaminationSystem.Classes
                 Console.WriteLine($"\nCreating Question #{i + 1}");
 
                 int qType;
-                if (examType == 1) // Final: Choose T/F or MCQ
+                if (examType == 1) 
                 {
                     do
                     {
                         Console.WriteLine("Question Type:\n[1] True/False\n[2] MCQ");
                     } while (!int.TryParse(Console.ReadLine(), out qType) || qType < 1 || qType > 2);
                 }
-                else // Practical: MCQ only
+                else 
                 {
                     qType = 2;
                 }
@@ -102,7 +102,7 @@ namespace ExaminationSystem.Classes
 
             if (start == "Y")
             {
-                Exam.StartTimer();
+                
                 Exam.ShowExam();
             }
             else

@@ -35,10 +35,7 @@ namespace ExaminationSystem.Classes
             Console.WriteLine();
         }
 
-        //public static void CreatePracticalExam()
-        //{
-        //    new MCQ().McqQuestion();
-        //}
+        
 
 
 

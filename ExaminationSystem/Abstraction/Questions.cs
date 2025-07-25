@@ -38,12 +38,5 @@ namespace ExaminationSystem.Abstraction
         public abstract bool Ask();
 
 
-
-
-
-
-
-
-
     }
 }

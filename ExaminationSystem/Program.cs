@@ -15,11 +15,11 @@ namespace ExaminationSystem
             string? name = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(name)) name = "OOP_EXAM";
             Console.Clear();
-            var subject = new Subject(id == 0 ? 1 : id, name);
+            Subject subject = new(id == 0 ? 1 : id, name);
             subject.CreateExam();
 
-            Console.WriteLine("\nPress any key to exit...");
-            Console.ReadKey();
+            
+            
 
 
         }

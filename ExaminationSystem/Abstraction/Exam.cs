@@ -25,27 +25,7 @@ namespace ExaminationSystem.Abstraction
         public abstract void ShowExam();
 
 
-        public  void StartTimer()
-        {
-            int totalSeconds = TimeOfExam * 60;
-
-            Thread timerThread = new Thread(() =>
-            {
-                while (totalSeconds > 0)
-                {
-                    Console.Title = $"Time Left: {totalSeconds / 60:D2}:{totalSeconds % 60:D2}";
-                    Thread.Sleep(1000);
-                    totalSeconds--;
-                }
-
-                Console.Clear();
-                Console.WriteLine("\nTime is up! The exam will now end.");
-                Environment.Exit(0); 
-            });
-
-            timerThread.IsBackground = true;
-            timerThread.Start();
-        }
+        
 
 
     }
