@@ -80,7 +80,7 @@ namespace ExaminationSystem.Classes
                     Console.WriteLine("Enter 4 choices:");
                     for (int j = 0; j < 4; j++)
                     {
-                        Console.Write($"{(char)(65 + j)}: ");
+                        Console.Write($"{j+1}: ");
                         string? choice = Console.ReadLine();
                         choices.Add(choice ?? $"Option {(char)(65 + j)}");
                     }

@@ -15,7 +15,7 @@ namespace ExaminationSystem.Classes
         public override void ShowExam()
         {
             Console.Clear();
-            Console.WriteLine("======== Practical Exam ========\n");
+            Console.WriteLine("\t Practical Exam \t\n");
 
             int totalMark = 0;
             int obtainedMark = 0;
@@ -24,7 +24,7 @@ namespace ExaminationSystem.Classes
             {
                 totalMark += question.Mark;
 
-                Console.WriteLine("----------------------------------------");
+                Console.WriteLine("---------<------------------>-------------");
                 bool correct = question.Ask();
                 if (correct) obtainedMark += question.Mark;
                 Console.WriteLine($"Correct Answer: {question.RightAnswer}");
