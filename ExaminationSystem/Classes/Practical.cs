@@ -25,7 +25,7 @@ namespace ExaminationSystem.Classes
                 totalMark += question.Mark;
 
                 Console.WriteLine("---------<------------------>-------------");
-                bool correct = question.Ask();
+                bool correct = question.AskQues();
                 if (correct) obtainedMark += question.Mark;
                 Console.WriteLine($"Correct Answer: {question.RightAnswer}");
                 Console.WriteLine();

@@ -30,7 +30,7 @@ namespace ExaminationSystem.Classes
                 totalMark += question.Mark;
 
                 Console.WriteLine("------------<-------------->--------------");
-                bool correct = question.Ask();
+                bool correct = question.AskQues();
                 results[question] = correct;
                 if (correct) obtainedMark += question.Mark;
                 Console.WriteLine();
@@ -39,7 +39,7 @@ namespace ExaminationSystem.Classes
             Console.WriteLine("\n\t Exam Summary \t");
             foreach (var q in QuestionsList)
             {
-                q.Display();
+                q.DisplayTheQuestion();
                 Console.WriteLine($"Your answer was: {(results[q] ? "Correct" : "Wrong")}");
                 Console.WriteLine($"The Correct Answer : {q.RightAnswer}\n");
             }

@@ -20,9 +20,9 @@ namespace ExaminationSystem.Classes
             RightAnswer = rightIsTrue ? AnswerList[0] : AnswerList[1];
         }
 
-        public override bool Ask()
+        public override bool AskQues()
         {
-            Display();
+            DisplayTheQuestion();
 
             Console.Write("Your Answer (1 for True, 2 for False): ");
 

@@ -25,7 +25,7 @@ namespace ExaminationSystem.Abstraction
             Mark = mark;
         }
 
-        public virtual void Display()
+        public virtual void DisplayTheQuestion()
         {
             Console.WriteLine($"\n[{Header}]  Mark: {Mark}");
             Console.WriteLine($"Q: {Body}");
@@ -35,7 +35,7 @@ namespace ExaminationSystem.Abstraction
             }
         }
 
-        public abstract bool Ask();
+        public abstract bool AskQues();
 
 
     }

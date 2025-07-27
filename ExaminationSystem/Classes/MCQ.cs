@@ -24,9 +24,9 @@ namespace ExaminationSystem.Classes
             }
         }
 
-        public override bool Ask()
+        public override bool AskQues()
         {
-            Display();
+            DisplayTheQuestion();
 
             int userChoice;
             do
