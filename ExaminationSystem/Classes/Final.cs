@@ -40,8 +40,7 @@ namespace ExaminationSystem.Classes
             foreach (var q in QuestionsList)
             {
                 q.DisplayTheQuestion();
-                Console.WriteLine($"Your answer was: {(results[q] ? "Correct" : "Wrong")}");
-                Console.WriteLine($"The Correct Answer : {q.RightAnswer}\n");
+                Console.WriteLine($"Your answer was: {(results[q] ? "Correct" : $"Wrong \nThe Correct Answer : {q.RightAnswer}\n")}");
             }
 
             Console.WriteLine($"Your Grade: {obtainedMark} / {totalMark}");

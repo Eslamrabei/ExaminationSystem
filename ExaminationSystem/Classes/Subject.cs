@@ -1,6 +1,5 @@
 ﻿using ExaminationSystem.Abstraction;
-using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace ExaminationSystem.Classes
 {
@@ -31,7 +30,8 @@ namespace ExaminationSystem.Classes
             {
                 Console.Write("Enter Exam Duration in minutes (30 - 180): ");
             } while (!int.TryParse(Console.ReadLine(), out duration) || duration < 30 || duration > 180);
-            
+            TimeSpan timeSpan = TimeSpan.FromMinutes(duration);
+
             int questionCount;
             do
             {
@@ -102,8 +102,15 @@ namespace ExaminationSystem.Classes
 
             if (start == "Y")
             {
+                Stopwatch stopWatch = Stopwatch.StartNew();
+
+                if(stopWatch.Elapsed < timeSpan)
+                {
+                    Exam.ShowExam();
+                    stopWatch.Stop();
+                    Console.WriteLine($"Time Duration: {stopWatch.Elapsed} ms");
+                }
                 
-                Exam.ShowExam();
             }
             else
             {
