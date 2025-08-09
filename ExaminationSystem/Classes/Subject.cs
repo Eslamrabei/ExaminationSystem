@@ -108,7 +108,7 @@ namespace ExaminationSystem.Classes
                 {
                     Exam.ShowExam();
                     stopWatch.Stop();
-                    Console.WriteLine($"Time Duration: {stopWatch.Elapsed} ms");
+                    Console.WriteLine($"Time Duration: {stopWatch.Elapsed:hh\\:mm\\:ss} ");
                 }
                 
             }
