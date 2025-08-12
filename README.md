@@ -21,7 +21,7 @@ The project demonstrates:
 ---
 
 ## Technologies Used
-- **C#** (.NET 6 / .NET Framework)
+- **C#** (.NET 8 / .NET Framework)
 - LINQ
 - OOP Principles
 
