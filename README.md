@@ -42,7 +42,7 @@ Exam Completed!
 Your Score: 8 / 10
 
 
-## Project Structure
+## Project Structure.
 ExaminationSystem/
 │
 ├── Program.cs                  # Entry point of the application
