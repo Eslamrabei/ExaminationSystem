@@ -41,18 +41,18 @@ Enter exam type: 1 for Practical, 2 for Final
 Exam Completed!
 Your Score: 8 / 10
 
-## Project Structure
+ ## Project Structure
+```plaintext
 ExaminationSystem/
 │
-├── ExaminationSystem.sln          # Solution file
-│
-├── ExaminationSystem/              # Main project folder
-│   ├── Program.cs                  # Entry point
-│   ├── Models/                     # Classes for Questions, Exams
-│   ├── Interfaces/                 # Interfaces for abstraction
-│   ├── Utils/                      # Helper classes
-│   └── Properties/                 # Project settings
-│
-├── README.md                       # Project documentation
-└── .gitignore                      # Ignore unnecessary files
+├── ExaminationSystem.sln # Solution file
+├── ExaminationSystem/ # Main project folder
+│ ├── Program.cs # Entry point
+│ ├── Models/ # Classes for Questions, Exams
+│ ├── Interfaces/ # Interfaces for abstraction
+│ ├── Utils/ # Helper classes
+│ └── Properties/ # Project settings
+├── README.md # Project documentation
+└── .gitignore # Ignore unnecessary files
+```
 
