@@ -42,11 +42,17 @@ Exam Completed!
 Your Score: 8 / 10
 
 
-## Project Structure.
 ExaminationSystem/
 │
-├── Program.cs                  # Entry point of the application
-├── Models/                     # Classes for Questions, Exams, etc.
-├── Interfaces/                 # Interfaces for extensibility
-├── Utils/                      # Helper classes and methods
-└── README.md                   # Project documentation
+├── ExaminationSystem.sln          # Solution file
+│
+├── ExaminationSystem/              # Main project folder
+│   ├── Program.cs                  # Entry point
+│   ├── Models/                     # Classes for Questions, Exams
+│   ├── Interfaces/                 # Interfaces for abstraction
+│   ├── Utils/                      # Helper classes
+│   └── Properties/                 # Project settings
+│
+├── README.md                       # Project documentation
+└── .gitignore                      # Ignore unnecessary files
+
