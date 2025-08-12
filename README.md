@@ -41,7 +41,7 @@ Enter exam type: 1 for Practical, 2 for Final
 Exam Completed!
 Your Score: 8 / 10
 
-
+## Project Structure
 ExaminationSystem/
 │
 ├── ExaminationSystem.sln          # Solution file
