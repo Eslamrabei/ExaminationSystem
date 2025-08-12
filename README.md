@@ -45,7 +45,7 @@ Your Score: 8 / 10
 ## Project Structure
 ExaminationSystem/
 │
-├── Program.cs                 # Entry point of the application
+├── Program.cs                  # Entry point of the application
 ├── Models/                     # Classes for Questions, Exams, etc.
 ├── Interfaces/                 # Interfaces for extensibility
 ├── Utils/                      # Helper classes and methods
