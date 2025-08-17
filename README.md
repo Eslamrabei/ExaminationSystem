@@ -48,10 +48,9 @@ ExaminationSystem/
 ├── ExaminationSystem.sln # Solution file
 ├── ExaminationSystem/ # Main project folder
 │ ├── Program.cs # Entry point
-│ ├── Models/ # Classes for Questions, Exams
-│ ├── Interfaces/ # Interfaces for abstraction
-│ ├── Utils/ # Helper classes
-│ └── Properties/ # Project settings
+│ ├── Abstractions/ # Classes for Questions, Exams
+│ ├── UML Diagram/ #  Class Diagram
+│ ├── Classes/ # Classes Answer, MCQ ,TrueOrFalse, Final, Practical, Subject. 
 ├── README.md # Project documentation
 └── .gitignore # Ignore unnecessary files
 ```
