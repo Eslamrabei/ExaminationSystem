@@ -50,7 +50,8 @@ ExaminationSystem/
 │ ├── Program.cs # Entry point
 │ ├── Abstractions/ # Classes for Questions, Exams
 │ ├── UML Diagram/ #  Class Diagram
-│ ├── Classes/ # Classes Answer, MCQ ,TrueOrFalse, Final, Practical, Subject. 
+│ ├── Classes/ # Classes For Answer, MCQ ,TrueOrFalse, Final, Practical, Subject.
+│ ├── Enums / # HeadrQuestion.
 ├── README.md # Project documentation
 └── .gitignore # Ignore unnecessary files
 ```
